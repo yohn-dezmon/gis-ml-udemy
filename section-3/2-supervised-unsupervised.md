@@ -22,5 +22,35 @@ Unsupervised:
 - e.g. K-means
 
 Supervised:
-- User determines test areas 
-- 
+- User determines test areas (training sites or labeled data)
+- prior knowledge of land cover
+- defined number of classes
+- e.g. Random Forest, Neural Networks 
+
+
+Common Supervised Learning Algorithms:
+- Nearest Neighbor
+- Logisitic Regression
+- Decision Trees
+- Linear Regression 
+- Support vector machines
+- Artificial neural networks
+- Random forests 
+
+Unsupervised learning:
+- K-means clustering
+- ISODATA
+- Association Rules
+
+LLMs are typically unsupervised. Initial process is unsupervised. Then fine-tuning is performed using supervised learning techniques.
+
+
+Image Classification:
+- how accurate is the classified image
+- need 'truth data' -- sample of pixels of known classes
+- truth data can be: another map, field samples, ariel images, etc.
+- method: confusion matrix! (assesses accuracy)
+
+usually threshold for accuracy is 85%.
+
+8:41
